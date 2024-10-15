@@ -1,7 +1,7 @@
 ﻿
 namespace _2024_10_15
 {
-    partial class Form1
+    partial class GameForm
     {
         /// <summary>
         /// Required designer variable.

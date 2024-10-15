@@ -1,18 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _2024_10_15
 {
-    public partial class Form1 : Form
+    public partial class GameForm : Form
     {
-        public Form1()
+        public GameForm()
         {
             InitializeComponent();
             Database.OpenConnection();
@@ -20,7 +13,6 @@ namespace _2024_10_15
             {
                 Environment.Exit(0);
             }
-            Text = $"Logged in as {Database.ActiveUser.Username}";
         }
     }
 }
