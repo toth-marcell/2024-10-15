@@ -85,7 +85,7 @@ namespace _2024_10_15
             }
             return users;
         }
-        static void Update(User user)
+        public static void Update(User user)
         {
             try
             {
